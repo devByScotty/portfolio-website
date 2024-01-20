@@ -27,7 +27,7 @@ const crypto = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          The &quot;Crypto Explorer&quot; app is a cutting-edge and user-centric platform meticulously crafted with React, CSS, and 
+          The Crypto Explorer app is a cutting-edge and user-centric platform meticulously crafted with React, CSS, and 
           integrated with cryptocurrency APIs, dedicated to delivering real-time and comprehensive cryptocurrency information. 
           The homepage showcases a sleek design, featuring a prominent header that displays the application's name. 
           The central section dynamically 
@@ -54,16 +54,16 @@ const crypto = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1 '>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React
+                <RiRadioButtonFill className='pr-1' />React
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> CSS
+                <RiRadioButtonFill className='pr-1' />CSS
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Javascript
+                <RiRadioButtonFill className='pr-1' />Javascript
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Material UI
+                <RiRadioButtonFill className='pr-1' />Material UI
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Rapid API - Crpto API
