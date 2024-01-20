@@ -27,9 +27,9 @@ const sneaker = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          The "Sneaker World" website is a stylish and user-friendly platform built using HTML, CSS, and JavaScript, 
-          offering a curated collection of popular sneakers. 
-          The homepage features a sleek header with a bold brand name, establishing a visually appealing design. 
+          The &quot;Sneaker World&quot; website is a stylish and user-friendly platform built using HTML, CSS, and JavaScript,
+            offering a curated collection of popular sneakers.
+            The homepage features a sleek header with a bold brand name, establishing a visually appealing design.
           </p>
           <a
             href='https://github.com/devByScotty/sneakerWebsite.git'

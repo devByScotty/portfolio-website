@@ -27,7 +27,7 @@ const weatherApp = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            The "Weather Explorer" website is a visually appealing and intuitive platform crafted with React, CSS, and OpenWeatherAPI, 
+            The &quot;Weather Explorer&quot; website is a visually appealing and intuitive platform crafted with React, CSS, and OpenWeatherAPI, 
           dedicated to providing up-to-date weather information. The homepage boasts a clean design with a prominent header 
           displaying the application's name. The central section dynamically showcases weather cards, each presenting a distinct 
           location along with relevant details such as temperature, weather conditions, and a visually indicative icon. 
