@@ -14,11 +14,11 @@ const crypto = () => {
           layout='fill'
           objectFit='cover'
           src={cryptoImg}
-          alt='/'
+          alt='Crypto App background'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Crypto App</h2>
-          <h3>React JS / CSS / Javascript / API</h3>
+          <h3>React JS / CSS / JavaScript / API</h3>
         </div>
       </div>
 
@@ -27,11 +27,10 @@ const crypto = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          The Crypto Explorer app is a cutting-edge and user-centric platform meticulously crafted with React, CSS, and 
-          integrated with cryptocurrency APIs, dedicated to delivering real-time and comprehensive cryptocurrency information. 
-          The homepage showcases a sleek design, featuring a prominent header that displays the application's name. 
-          The central section dynamically 
-          generates crypto cards, each presenting essential details such as current price, market cap, and percentage changes
+            The Crypto Explorer app is a cutting-edge and user-centric platform meticulously crafted with React, CSS, and 
+            integrated with cryptocurrency APIs, dedicated to delivering real-time and comprehensive cryptocurrency information. 
+            The homepage showcases a sleek design, featuring a prominent header that displays the application&apos;s name. 
+            The central section dynamically generates crypto cards, each presenting essential details such as current price, market cap, and percentage changes.
           </p>
           <a
             href='https://github.com/devByScotty/cryptoRanker.git'
@@ -47,7 +46,6 @@ const crypto = () => {
           >
             <button className='px-8 py-2 mt-4'>Demo</button>
           </a>
-
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>
@@ -60,13 +58,13 @@ const crypto = () => {
                 <RiRadioButtonFill className='pr-1' /> CSS
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Javascript
+                <RiRadioButtonFill className='pr-1' /> JavaScript
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Material UI
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Rapid API - Crpto API
+                <RiRadioButtonFill className='pr-1' /> Rapid API - Crypto API
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Routes
@@ -83,3 +81,4 @@ const crypto = () => {
 };
 
 export default crypto;
+
