@@ -27,7 +27,7 @@ const crypto = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          The "Crypto Explorer" app is a cutting-edge and user-centric platform meticulously crafted with React, CSS, and 
+          The Crypto Explorer app is a cutting-edge and user-centric platform meticulously crafted with React, CSS, and 
           integrated with cryptocurrency APIs, dedicated to delivering real-time and comprehensive cryptocurrency information. 
           The homepage showcases a sleek design, featuring a prominent header that displays the application's name. 
           The central section dynamically 
