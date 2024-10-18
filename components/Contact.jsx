@@ -6,6 +6,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import ContactImg from '../public/assets/contact.jpg';
+import heroDevImg from '../public/assets/projects/hero-dev.jpg';
 
 const Contact = () => {
   return (
@@ -22,13 +23,13 @@ const Contact = () => {
               <div>
                 <Image
                   className='rounded-xl hover:scale-105 ease-in duration-300'
-                  src={ContactImg}
+                  src={heroDevImg}
                   alt='/'
                 />
               </div>
               <div>
                 <h2 className='py-2'>Johannes Mathelele</h2>
-                <p>Front-End Developer</p>
+                <p>Junior Full Stack Developer</p>
                 <p className='py-4'>
                   I am available for freelance or a full-time position. Contact
                   me and let&apos;s talk.

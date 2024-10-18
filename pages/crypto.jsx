@@ -18,7 +18,7 @@ const crypto = () => {
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
           <h2 className='py-2'>Crypto App</h2>
-          <h3>React JS / CSS / Javascript</h3>
+          <h3>React JS / CSS / Javascript / API</h3>
         </div>
       </div>
 
@@ -27,9 +27,9 @@ const crypto = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          The Crypto Explorer app is a cutting-edge and user-centric platform meticulously crafted with React, CSS, and 
+          The "Crypto Explorer" app is a cutting-edge and user-centric platform meticulously crafted with React, CSS, and 
           integrated with cryptocurrency APIs, dedicated to delivering real-time and comprehensive cryptocurrency information. 
-          The homepage showcases a sleek design, featuring a prominent header that displays the application&apos;s name. 
+          The homepage showcases a sleek design, featuring a prominent header that displays the application's name. 
           The central section dynamically 
           generates crypto cards, each presenting essential details such as current price, market cap, and percentage changes
           </p>
@@ -53,7 +53,18 @@ const crypto = () => {
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1 '>
-              {/* ... (other content) */}
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> React
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> CSS
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Javascript
+              </p>
+              <p className='text-gray-600 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> Material UI
+              </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Rapid API - Crpto API
               </p>

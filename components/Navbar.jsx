@@ -12,7 +12,7 @@ const Navbar = () => {
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState('#ecf0f3');
   const [linkColor, setLinkColor] = useState('#1f2937');
-  
+
 
   const handleNav = () => {
     setNav(!nav);
@@ -38,15 +38,15 @@ const Navbar = () => {
           : 'fixed w-full h-20 z-[100]'
       }
     >
-      <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
+      <div className='grid grid-cols-3 items-center w-full h-full px-2 2xl:px-16'>
         <Link href='/'>
           <a>
             <Image
               src={NavLogo}
               alt='/'
-              width='125'
-              height='120'
-              className='cursor-pointer'
+              width='50'
+              height='50'
+              className='cursor-pointer justify-start'
             />
           </a>
         </Link>
@@ -75,7 +75,7 @@ const Navbar = () => {
           <div
             style={{ color: `${linkColor}` }}
             onClick={handleNav}
-            className='md:hidden'
+            className='md:hidden mx-15 flex justify-end'
           >
             <AiOutlineMenu size={25} />
           </div>
@@ -86,7 +86,7 @@ const Navbar = () => {
       {/* Overlay */}
       <div
         className={
-          nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''
+          nav ? 'md:hidden fixed mx-auto left-0 top-0 w-full h-screen bg-black/70 col-span-2 flex justify-around' : ''
         }
       >
         {/* Side Drawer Menu */}
@@ -103,9 +103,10 @@ const Navbar = () => {
                 <a>
                   <Image
                     src={NavLogo}
-                    width='87'
-                    height='90'
+                    width='77'
+                    height='50'
                     alt='/'
+                    className='cursor-pointer mx-auto my-2'
                   />
                 </a>
               </Link>
