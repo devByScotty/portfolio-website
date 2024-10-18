@@ -28,11 +28,11 @@ const weatherApp = () => {
           <h2>Overview</h2>
           <p>
             The Weather Explorer website is a visually appealing and intuitive platform crafted with React, CSS, and OpenWeatherAPI, 
-          dedicated to providing up-to-date weather information. The homepage boasts a clean design with a prominent header 
-          displaying the application's name. The central section dynamically showcases weather cards, each presenting a distinct 
-          location along with relevant details such as temperature, weather conditions, and a visually indicative icon. 
-          The layout ensures a seamless and responsive user experience across various devices, 
-          thanks to carefully implemented styles and flexible design
+            dedicated to providing up-to-date weather information. The homepage boasts a clean design with a prominent header 
+            displaying the application&apos;s name. The central section dynamically showcases weather cards, each presenting a distinct 
+            location along with relevant details such as temperature, weather conditions, and a visually indicative icon. 
+            The layout ensures a seamless and responsive user experience across various devices, 
+            thanks to carefully implemented styles and flexible design.
           </p>
           <a
             href='https://weather-app-gamma-sepia.vercel.app/'
@@ -48,7 +48,6 @@ const weatherApp = () => {
           >
             <button className='px-8 py-2 mt-4'>Code</button>
           </a>
-
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>
@@ -66,7 +65,6 @@ const weatherApp = () => {
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> OpenWeather API
               </p>
-            
             </div>
           </div>
         </div>
